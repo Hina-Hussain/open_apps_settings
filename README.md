@@ -6,7 +6,7 @@ A Flutter Plugin for opening phone settings from Android and iOS apps. It is a f
 Add following dependency in pubspec.yaml file:
 
 ```bash
-open_apps_settings:^0.0.1
+open_apps_settings:^0.0.2
 ```
 Install by running:
 
