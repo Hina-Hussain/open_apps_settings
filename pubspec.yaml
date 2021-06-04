@@ -4,8 +4,8 @@ version: 0.0.1
 homepage: https://github.com/Hina-Hussain/open_apps_settings.git
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.20.0 <2.0.0"
+  sdk: ">=2.10.0 <3.0.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:

@@ -1,6 +1,6 @@
 /*@Author Hina Hussain on 5-May-2021
 * */
-
+/// SettingsCode defined all supported enum.
 enum SettingsCode {
   APP_SETTINGS,
   BLUETOOTH,
