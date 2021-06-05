@@ -2,9 +2,9 @@
 * */
 
 import 'dart:async';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'settings_enum.dart';
+
 /// This class is responsible for Opening settings pages.
 class OpenAppsSettings {
   static const MethodChannel _channel =
@@ -16,7 +16,7 @@ class OpenAppsSettings {
   /// through onCompletion method
 
   static Future<void> openAppsSettings(
-      {@required SettingsCode settingsCode, Function onCompletion}) async {
+      {required SettingsCode settingsCode, Function? onCompletion}) async {
     try {
       String code = settingsCode.toString();
       code = code.substring(13);

@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Function _function;
+  late Function _function;
 
   @override
   void initState() {

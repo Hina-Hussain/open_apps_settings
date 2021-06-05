@@ -4,3 +4,6 @@
 
 ## 0.0.2
 * Upgrade Dart SDK.
+
+## 0.0.3
+* Stable, null-safe release.
