@@ -1,6 +1,6 @@
 name: open_apps_settings
 description: A Flutter Plugin for opening phone settings from Android and iOS apps.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/Hina-Hussain/open_apps_settings.git
 
 environment:

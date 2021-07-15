@@ -4,16 +4,20 @@
 import 'dart:async';
 import 'package:flutter/services.dart';
 import 'settings_enum.dart';
+/* @Autor Hina Hussain */
 
-/// This class is responsible for Opening settings pages.
+/// An [OpenAppsSettings] class is responsible for Opening settings pages for the application.
+
 class OpenAppsSettings {
   static const MethodChannel _channel =
       const MethodChannel('open_apps_settings');
 
-  ///this method is used to open settings. As a input user will specify which settings should be
-  /// open. All SettingsCode are defined in SettingsCode enum. onCompletion method is optional.
+  ///[openAppsSettings] method is used to open settings.
+  /// As a input user will specify which [settings] should be open.
+  /// All [SettingsCode] are defined in [SettingsCode] enum.
+  /// [onCompletion] method parameter is optional.
   /// If user wants to execute something after returning back from settings then can pass
-  /// through onCompletion method
+  /// through [onCompletion] method
 
   static Future<void> openAppsSettings(
       {required SettingsCode settingsCode, Function? onCompletion}) async {

@@ -42,7 +42,7 @@ public class OpenAppsSettingsPlugin implements FlutterPlugin, MethodCallHandler,
     this.activityRes = result;
     if(call.method.equals("openSettings")){
       String settingCode =  call.argument("setting_code");
-      switch (settingCode) {
+      switch (settingCode != null ? settingCode : "") {
         case "app_settings":
           openAppSettings();
           break;
@@ -162,7 +162,10 @@ public class OpenAppsSettingsPlugin implements FlutterPlugin, MethodCallHandler,
 
   @Override
   public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
-    activityRes.success(""+requestCode);
+    if(activityRes!=null){
+      activityRes.success(""+requestCode);
+    }
+
     return true;
   }
 

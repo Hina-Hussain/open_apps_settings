@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:open_apps_settings/open_apps_settings.dart';
 import 'package:open_apps_settings/settings_enum.dart';
 
-
 void main() {
   runApp(MyApp());
 }

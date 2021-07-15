@@ -1,6 +1,32 @@
 /*@Author Hina Hussain on 5-May-2021
 * */
-/// SettingsCode defined all supported enum.
+/// [SettingsCode] defined all enums that are supported by [open_apps_settings] plugin.
+/// [
+///  APP_SETTINGS,
+//   BLUETOOTH,
+//   WIFI,
+//   ACCESSIBILITY,
+//   ADD_ACCOUNT,
+//   AIRPLANE_MODE,
+//   APN,
+//   ALL_APPS_SETTINGS,
+//   BATTERY_SAVER,
+//   KEYBOARD,
+//   DATA_USAGE,
+//   DATE,
+//   DEVICE_INFO,
+//   DISPLAY,
+//   HOME,
+//   INTERNAL_STORAGE,
+//   FINGERPRINT_ENROLL,
+//   LOCALE,
+//   LOCATION,
+//   PRIVACY,
+//   BATTERY_OPTIMIZATION,
+//   NFC,
+//   SOUND,
+//   NOTIFICATION,
+/// ]
 enum SettingsCode {
   APP_SETTINGS,
   BLUETOOTH,
